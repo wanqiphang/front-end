@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+#shop{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 10%;
+    font-weight: bold;
+}
+
+#dessert img{
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    margin: 10px;
+}
+
+#dessert{
+    margin-left: 10%;
+}
+
+th{
+    padding: 0px 25px 0px 25px;
+}
+
+th img{
+    padding: 50px 25px 0px 25px;
+}
+
+td{
+    text-align: center;
+    padding-left: 50px;
+    font-weight: bold;
+}
+

@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+#myslide{
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    margin: auto;
+    display: none;
+}
+
+#myslide img{
+    width: 100%;
+    min-width: 500px;
+    min-height: 500px;
+}
+
+.slide1, .slide2{
+    width: 100%;
+}
+
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#dot1{
+    margin-left: 48%;
+}
+
+.dot:hover{
+    background-color: gray;
+}
+
+#products h1{
+    text-align: center;
+    text-shadow: 2px 2px gray;
+    text-decoration: underline red;
+}
+
+.cake{
+    margin-left: 10%;
+}
+
+#prod img{
+    width: 25%;
+    height: auto;
+    max-height: 350px;
+}
+
+#shop{
+    border: 10px solid black;
+    color: whitesmoke;
+    background-color: black;
+    margin-left: 48%;
+}
+
+#shop:hover{
+    opacity: 0.5;
+}
